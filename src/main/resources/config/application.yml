@@ -128,6 +128,8 @@ spring:
     thymeleaf:
         mode: HTML
 
+spring.batch.job.enabled: "false"
+spring.batch.initialize-schema: always
 # ===================================================================
 # OpenID Connect Settings. Default settings are for Keycloak in Docker.
 # Start Keycloak using `docker-compose -f src/main/docker/keycloak.yml up`.
@@ -150,10 +152,10 @@ spring:
 security:
     oauth2:
         client:
-            client-id: internal
-            client-secret: internal
+            client-id: account
+            client-secret: 861f1081-2b85-48a9-82eb-62b38a31be64
         resource:
-            user-info-uri: http://localhost:9080/auth/realms/jhipster/protocol/openid-connect/userinfo
+            user-info-uri: http://dev.servers.divisosofttech.com:8888/auth/realms/freight/protocol/openid-connect/userinfo
 
 server:
     servlet:
