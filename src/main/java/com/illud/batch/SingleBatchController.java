@@ -84,11 +84,6 @@ public class SingleBatchController {
 
 		JobExecution jobExecution = jobLauncher.run(job, parameters);
 		
-		Query query1 = manager.createNativeQuery(
-				"DELETE FROM BATCH_JOB_EXECUTION_CONTEXT WHERE JOB_EXECUTION_ID  = " + 1);
-		
-		query1.executeUpdate();
-		
 		System.out.println("JobExecution: ............" + jobExecution.getStatus());
 
 		System.out.println("Batch is Running...");
@@ -96,20 +91,6 @@ public class SingleBatchController {
 			System.out.println("...");
 		}
 
-		/*
-		 * Query query2 = manager.
-		 * createNativeQuery("DELETE FROM BATCH_JOB_EXECUTION WHERE JOB_INSTANCE_ID   = "
-		 * + 0);
-		 * 
-		 * 
-		 * Query query3 = manager.
-		 * createNativeQuery("DELETE FROM BATCH_JOB_INSTANCE  WHERE JOB_INSTANCE_ID   = "
-		 * + 0);
-		 */
-
-		/*
-		 * query2.executeUpdate(); query3.executeUpdate();
-		 */
 
 	}
 
