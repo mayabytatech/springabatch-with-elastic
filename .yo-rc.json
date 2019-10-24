@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.illud"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "microservice",
+    "baseName": "batch",
+    "packageName": "com.illud",
+    "packageFolder": "com/illud",
+    "serverPort": "8022",
+    "authenticationType": "oauth2",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWVlMTE2NDUwOWQ0NDU0ODhkOGU1OTIyMGE3MzIyNjEyNWE3NWUxODA1NWZjMTFmNGU3ZWMyODJkYzE5MzdlM2FkOWQxNzJmZGJjNWQ4NWY2Y2FhMDgyMTZlZmEzYjE5OTg1MTc2MzVjMDNhMzg5MmY2MGY2Mzg2YzU0YTVjMjU=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
