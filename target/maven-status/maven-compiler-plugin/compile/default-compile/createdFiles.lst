@@ -1,0 +1,15 @@
+com/illud/service/impl/DrivoDataServiceImpl.class
+com/illud/domain/Authority_.class
+com/illud/service/mapper/DrivoDataMapperImpl.class
+com/illud/domain/User_.class
+com/illud/repository/search/DrivoDataSearchRepository.class
+com/illud/domain/DrivoData_.class
+com/illud/service/mapper/EntityMapper.class
+com/illud/web/rest/DrivoDataResource.class
+com/illud/domain/AbstractAuditingEntity_.class
+com/illud/repository/DrivoDataRepository.class
+com/illud/domain/DrivoData.class
+com/illud/domain/PersistentAuditEvent_.class
+com/illud/service/dto/DrivoDataDTO.class
+com/illud/service/DrivoDataService.class
+com/illud/service/mapper/DrivoDataMapper.class
